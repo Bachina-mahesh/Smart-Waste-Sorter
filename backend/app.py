@@ -59,11 +59,13 @@ def predict():
         
         info = waste_info.get(predicted_label, {})
         result = {
-            "type": predicted_label,
-            "decomposition": info.get("decomposition", "Unknown"),
-            "tip": info.get("tip", "No tip available"),
-            "disposal": info.get("disposal", "No disposal info")
-        }
+    "type": predicted_label,
+    "decomposition": info.get("decomposition", "Unknown"),
+    "notes": info.get("notes", ["No decomposition notes available"]),
+    "tip": info.get("tip", ["No tips available"]),
+    "disposal": info.get("disposal", ["No disposal info available"])
+}
+
 
         return jsonify({"waste_detected": [result]})
 

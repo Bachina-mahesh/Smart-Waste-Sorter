@@ -1,13 +1,213 @@
-body {
+/* 🌿 Global Reset & Font */
+body, html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1920&q=80") 
+    no-repeat center center fixed;
+  background-size: cover;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Center Content */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Content Box */
+.home-content {
+  max-width: 600px;
+  padding: 30px;
+}
+
+/* Title */
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  animation: fadeInDown 1s ease;
+}
+
+/* Quotes */
+.home-quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 25px;
+  animation: fadeIn 2s ease;
+  color: #a5d6a7;
+}
+
+/* Upload Card */
+.upload-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+}
+
+.file-input {
+  display: block;
+  margin: 15px auto;
+  padding: 12px;
+  border-radius: 8px;
+  background: #f0fff0;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1rem;
+  transition: transform 0.2s;
+}
+.file-input:hover {
+  transform: scale(1.05);
+}
+
+/* Button */
+.upload-btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+.upload-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #66bb6a, #388e3c);
+}
+
+/* Results */
+.results-container {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  animation: fadeInUp 1s ease;
+}
+
+.waste-item {
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  transition: transform 0.3s;
+}
+.waste-item:hover {
+  transform: scale(1.03);
+}
+
+/* Errors */
+.error {
+  color: #ff5252;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.loading {
+  color: #ffd54f;
+  font-weight: bold;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+/* 🔹 General Page Container */
+.page-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  animation: fadeInDown 1s ease;
+}
+
+/* 🔹 Features Section */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+  transition: transform 0.3s, background 0.3s;
+}
+.feature-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  background: rgba(255, 255, 255, 0.2);
+}
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+/* 🔹 Team Section */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.team-card {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.team-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.team-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #a5d6a7;
 }

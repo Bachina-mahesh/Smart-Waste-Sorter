@@ -1,52 +1,208 @@
 {
   "plastic": {
     "decomposition": "450–1000 years",
-    "tip": "Avoid single-use plastics; opt for reusable containers and bags.",
-    "disposal": "Recycle if labeled; otherwise dispose in non-biodegradable bin."
+    "notes": [
+      "Microplastics persist indefinitely in ecosystems.",
+      "PET bottles take ~450 years; plastic bags ~10–20 years.",
+      "Sunlight accelerates breakdown but releases toxins.",
+      "Bioplastics may decompose faster but need industrial composting."
+    ],
+    "tip": [
+      "Avoid single-use plastics; opt for reusable containers and bags.",
+      "Choose products with minimal plastic packaging.",
+      "Support plastic-free initiatives and bulk buying.",
+      "Educate others on plastic pollution."
+    ],
+    "disposal": [
+      "Recycle if labeled; otherwise dispose in non-biodegradable bin.",
+      "Check for recycling codes (1–7) before disposal.",
+      "Separate clean and dirty plastics.",
+      "Avoid burning plastic—releases harmful dioxins."
+    ]
   },
   "organic": {
     "decomposition": "2 weeks to 6 months",
-    "tip": "Compost food scraps and garden waste to enrich soil.",
-    "disposal": "Use compost bin or municipal organic waste service."
+    "notes": [
+      "Fruit peels: ~2–4 weeks; leaves: ~6 months.",
+      "Composting reduces methane emissions from landfills.",
+      "Vermicomposting speeds up decomposition.",
+      "Moisture and aeration are key for fast breakdown."
+    ],
+    "tip": [
+      "Compost food scraps and garden waste to enrich soil.",
+      "Chop waste into smaller pieces before composting.",
+      "Avoid oily or dairy products in home compost.",
+      "Use compost in gardens or potted plants."
+    ],
+    "disposal": [
+      "Use compost bin or municipal organic waste service.",
+      "Use green bins or community composting.",
+      "Keep separate from recyclables to avoid contamination."
+    ]
   },
   "metal": {
     "decomposition": "30–500 years",
-    "tip": "Rinse and recycle metal containers; sell scrap metal when possible.",
-    "disposal": "Scrap yard or municipal recycling center."
+    "notes": [
+      "Aluminum cans: ~80–200 years; iron: ~100–500 years.",
+      "Metals corrode but don’t biodegrade.",
+      "Recycling saves 95% of energy vs. producing new metal.",
+      "E-waste often contains valuable metals like gold and copper."
+    ],
+    "tip": [
+      "Rinse and recycle metal containers; sell scrap metal when possible.",
+      "Collect and sell scrap metal.",
+      "Avoid mixing metal with general waste.",
+      "Remove plastic parts before recycling."
+    ],
+    "disposal": [
+      "Scrap yard or municipal recycling center.",
+      "Use designated bins for cans and foil.",
+      "Take large items to scrap yards or recycling drives."
+    ]
   },
   "glass": {
     "decomposition": "1–2 million years",
-    "tip": "Reuse glass jars and bottles; recycle clean glass.",
-    "disposal": "Glass recycling bin or drop-off center."
+    "notes": [
+      "Glass is non-biodegradable but 100% recyclable.",
+      "Colored glass must be sorted separately.",
+      "Broken glass poses safety hazards.",
+      "Recycled glass reduces mining of raw materials."
+    ],
+    "tip": [
+      "Reuse glass jars and bottles; recycle clean glass.",
+      "Store bulk items in glass jars.",
+      "Avoid single-use glass containers.",
+      "Label reusable jars for organization."
+    ],
+    "disposal": [
+      "Glass recycling bin or drop-off center.",
+      "Rinse before recycling.",
+      "Wrap broken glass before disposal.",
+      "Use local drop-off centers for bulk glass."
+    ]
   },
   "paper": {
     "decomposition": "2–6 weeks",
-    "tip": "Use both sides before recycling; compost uncoated paper.",
-    "disposal": "Recycle in dry paper bin or compost if uncoated."
+    "notes": [
+      "Newspaper: ~6 weeks; tissue paper: ~2 weeks.",
+      "Coated or glossy paper takes longer.",
+      "Paper in landfills emits methane.",
+      "Recycling paper saves trees and water."
+    ],
+    "tip": [
+      "Use both sides before recycling; compost uncoated paper.",
+      "Use digital alternatives when possible.",
+      "Shred paper for compost or packing.",
+      "Avoid waxed or laminated paper."
+    ],
+    "disposal": [
+      "Recycle in dry paper bin or compost if uncoated.",
+      "Keep dry and clean for recycling.",
+      "Compost uncoated paper with organic waste."
+    ]
   },
   "cardboard": {
     "decomposition": "3 months to 1 year",
-    "tip": "Flatten boxes before recycling; compost if clean and uncoated.",
-    "disposal": "Recycle or compost depending on condition."
+    "notes": [
+      "Corrugated cardboard: ~3–6 months.",
+      "Coated cardboard (e.g., pizza boxes) decomposes slower.",
+      "Wet cardboard attracts pests.",
+      "Composting improves soil aeration."
+    ],
+    "tip": [
+      "Flatten boxes before recycling; compost if clean and uncoated.",
+      "Use cardboard for weed control in gardens.",
+      "Repurpose boxes for storage or crafts.",
+      "Avoid waxed cardboard in compost."
+    ],
+    "disposal": [
+      "Recycle or compost depending on condition.",
+      "Flatten and dry before recycling.",
+      "Tear into small pieces for composting."
+    ]
   },
   "e-waste": {
     "decomposition": "100–1000+ years",
-    "tip": "Donate or recycle electronics at certified e-waste centers.",
-    "disposal": "Authorized e-waste recycling facility."
+    "notes": [
+      "Batteries leak heavy metals into soil.",
+      "Circuit boards contain lead, mercury, and cadmium.",
+      "E-waste is growing 3x faster than general waste.",
+      "Proper recycling recovers rare earth elements."
+    ],
+    "tip": [
+      "Donate or recycle electronics at certified e-waste centers.",
+      "Back up data before disposal.",
+      "Trade in old devices for discounts.",
+      "Join e-waste awareness campaigns."
+    ],
+    "disposal": [
+      "Authorized e-waste recycling facility.",
+      "Never mix with household waste.",
+      "Use certified e-waste recyclers.",
+      "Remove batteries before disposal."
+    ]
   },
   "textiles": {
     "decomposition": "2 weeks to 200+ years",
-    "tip": "Donate wearable clothes; repurpose or recycle damaged textiles.",
-    "disposal": "Textile recycling or donation centers."
+    "notes": [
+      "Cotton: ~2–5 months; polyester: ~20–200 years.",
+      "Synthetic fibers shed microplastics.",
+      "Fast fashion contributes to landfill overflow.",
+      "Natural dyes decompose faster than synthetic ones."
+    ],
+    "tip": [
+      "Donate wearable clothes; repurpose or recycle damaged textiles.",
+      "Mend clothes instead of discarding.",
+      "Host clothing swaps or donation drives.",
+      "Use old textiles for cleaning or insulation."
+    ],
+    "disposal": [
+      "Textile recycling or donation centers.",
+      "Separate clean and soiled textiles.",
+      "Check for textile recycling programs.",
+      "Avoid mixing with organic or plastic waste."
+    ]
   },
   "styrofoam": {
     "decomposition": "500–1000 years",
-    "tip": "Avoid Styrofoam packaging; use biodegradable or reusable alternatives.",
-    "disposal": "Landfill or specialized drop-off (rarely recyclable)."
+    "notes": [
+      "Made from polystyrene, highly resistant to breakdown.",
+      "Breaks into microplastics, harming marine life.",
+      "Not accepted in most curbside recycling programs.",
+      "Lightweight but bulky in landfills."
+    ],
+    "tip": [
+      "Avoid Styrofoam packaging; use biodegradable or reusable alternatives.",
+      "Request paper-based packaging alternatives.",
+      "Carry your own containers for takeout.",
+      "Educate others on Styrofoam’s impact."
+    ],
+    "disposal": [
+      "Landfill or specialized drop-off (rarely recyclable).",
+      "Use designated drop-off if available.",
+      "Avoid burning—releases toxic fumes.",
+      "Minimize use in daily life."
+    ]
   },
   "default": {
     "decomposition": "Varies widely",
-    "tip": "Try to identify the material and check local disposal guidelines.",
-    "disposal": "If unsure, dispose in general waste or consult your municipality."
+    "notes": [
+      "Mixed materials complicate recycling.",
+      "Contaminated items often end up in landfills.",
+      "Decomposition depends on climate and exposure.",
+      "Improper disposal leads to environmental hazards."
+    ],
+    "tip": [
+      "Try to identify the material and check local disposal guidelines.",
+      "Try to separate components (e.g., plastic + metal).",
+      "Use online tools or apps to identify materials.",
+      "Ask local authorities for guidance."
+    ],
+    "disposal": [
+      "If unsure, dispose in general waste or consult your municipality.",
+      "When in doubt, use general waste bin.",
+      "Avoid contaminating recyclables.",
+      "Label unknown items for future sorting."
+    ]
   }
 }
